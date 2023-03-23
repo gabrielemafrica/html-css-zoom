@@ -86,7 +86,7 @@ ul li{
 .screen{
     flex-grow: 1;
     position: relative;
-    width: 250px;
+    width: calc(100%/6);
     margin: 5px;
     max-width: 300px;
 }
