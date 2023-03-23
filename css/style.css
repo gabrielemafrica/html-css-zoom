@@ -108,7 +108,7 @@ ul li{
 /* parte bottom */
 
 .player{
-    background-color: rgba(21, 21, 21, 0.9);
+    background-color: rgba(33, 32, 32, 0.9);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -139,6 +139,7 @@ ul li{
     line-height: 100%;
     text-align: center;
     padding: 0 20px;
+    cursor: pointer;
 
 }
 
@@ -152,3 +153,12 @@ ul li{
 }
 
 
+
+
+.button i.fa-angle-up{
+    font-size: 15px;
+    /* vertical-align: bottom; */
+    /* text-align: start; */
+    line-height: 50px;
+    margin: 5px 10px 5px 0;
+}
