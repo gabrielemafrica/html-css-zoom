@@ -27,6 +27,10 @@ ul li{
     font-size: 12px;
 }
 
+.flex{
+    display: flex;
+}
+
 /* parte superiore */
 
 .head{
@@ -53,8 +57,67 @@ ul li{
     border-radius: 5px;
 }
 
+/* parte centrale */
+
+.video{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+
+/* parte bottom */
+
+.player{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 3;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button > a, .button i {
+    display: block;
+    text-align: center;
+    margin: 5px 10px;
+    font-size: 14px;
+}
+
+.button > a > i {
+    font-size: 24px;
+}
+
+
+.end-button{
+   
+    color: red;
+    height: 100%;
+    background-color: gray;
+    line-height: 100%;
+    text-align: center;
+    padding: 0 20px;
+
+}
+
+.end-button span{
+    /* position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translate(-50%, -50%); */
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+
 /* debug */
 
 .head{
     background-color: brown;
+}
+
+.player{
+    background-color: rgba(72, 71, 71, 0.8);
 }
