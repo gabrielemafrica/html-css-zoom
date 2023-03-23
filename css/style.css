@@ -34,6 +34,7 @@ ul li{
 /* parte superiore */
 
 .head{
+    background-color: black;
     position: absolute;
     top: 0;
     left: 0;
@@ -60,15 +61,42 @@ ul li{
 /* parte centrale */
 
 .video{
-    width: 80%;
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
-    padding-top: 70px;
+    padding: 70px 50px 5px 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: auto;
+
+}
+
+.screen{
+    flex-grow: 1;
+    position: relative;
+    min-width: 10%;
+    margin: 5px;
+    max-width: 300px;
+}
+
+.screen img{
+    width: 100%;
+}
+
+.screen div:last-child{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    font-size: 12px;
 }
 
 
 /* parte bottom */
 
 .player{
+    background-color: rgba(21, 21, 21, 0.9);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -112,12 +140,3 @@ ul li{
 }
 
 
-/* debug */
-
-.head{
-    background-color: brown;
-}
-
-.player{
-    background-color: rgba(72, 71, 71, 0.8);
-}
