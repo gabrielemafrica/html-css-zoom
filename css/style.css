@@ -58,6 +58,18 @@ ul li{
     border-radius: 5px;
 }
 
+.green{
+    color: greenyellow;
+}
+
+.button:hover a, .button:hover a i{
+    color: yellow;
+}
+
+.head ul li:hover, .end-button:hover {
+    background-color: darkgrey;
+}
+
 /* parte centrale */
 
 .video{
