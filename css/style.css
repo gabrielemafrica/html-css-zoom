@@ -76,23 +76,23 @@ ul li{
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    padding: 70px 50px 5px 50px;
+    padding: 70px 50px 10px 50px;
     justify-content: center;
     flex-wrap: wrap;
     overflow: auto;
-
+    flex-grow: 1;
 }
 
 .screen{
     flex-grow: 1;
     position: relative;
-    min-width: 10%;
+    width: 250px;
     margin: 5px;
     max-width: 300px;
 }
 
 .screen img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .screen div:last-child{
